@@ -2,64 +2,65 @@
 
 const config = {
   github: {
-    username: 'AaryaPenn', // Your GitHub org/user name. (Required)
-    sortBy: 'updated', // stars | updated
+    username: 'arifszn', // Your GitHub org/user name. (Required)
+    sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [AaryaPenn], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'aaryapenneru',
-    twitter: '',
-    mastodon: '',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
+    mastodon: 'arifszn@mastodon.social',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: '',
-    dev: '',
+    medium: 'arifszn',
+    dev: 'arifszn',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
-    phone: '647-500-4535',
-    email: 'aaaryanaga@gmail.com',
+    website: 'https://arifszn.com',
+    phone: '',
+    email: 'arifulalamszn@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Python',
-    'TypeScript',
-    'Rust',
-    'C++',
+    'PHP',
+    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
+    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'Ansible',
+    'PHPUnit',
     'CSS',
+    'Antd',
+    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Linamar',
-      position: 'Product Management Intern',
-      from: 'September 2023',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Manulife John Hancock',
-      position: 'Software Engineer',
-      from: 'January 2023',
-      to: 'January 2024',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
       companyLink: 'https://example.com',
     },
   ],
@@ -73,16 +74,37 @@ const config = {
   ], */
   education: [
     {
-      institution: 'University of Waterloo',
-      degree: 'Systems Design Engineering',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2015',
+      to: '2019',
+    },
+    {
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [],
-      
+  externalProjects: [
+    {
+      title: 'Project Name',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+    {
+      title: 'Project Name',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+  ],
   // Display blog posts from your medium or dev account. (Optional)
-      
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
