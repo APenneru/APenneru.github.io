@@ -125,7 +125,7 @@ const renderArticles = () => {
                 {/* Display Medium logo instead of fetching profile picture */}
                 {blog.source === 'medium' && (
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Medium_%28website%29_logo.svg" // Medium logo URL
+                    src="https://cdn.mos.cms.futurecdn.net/uazw6gFQuEC29mxMM55Tpb-1200-80.jpg.webp" // Medium logo URL
                     alt="Medium Logo"
                     className="w-full h-full object-cover rounded-full"
                   />
