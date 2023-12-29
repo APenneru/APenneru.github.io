@@ -69,6 +69,7 @@ const config = {
       from: 'January 2023',
       to: 'May 2023',
       companyLink: 'https://www.manulife.ca/personal.html',
+    },
   ],
   /* certifications: [
     {
