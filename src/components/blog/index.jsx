@@ -122,11 +122,11 @@ const renderArticles = () => {
           <div className="flex items-center flex-col md:flex-row">
             <div className="avatar mb-5 md:mb-0 opacity-90">
               <div className="w-24 h-24 mask mask-squircle">
-                {/* Conditionally fetch and render profile picture */}
-                {blog.source === 'medium' && article.user && (
+                {/* Display Medium logo instead of fetching profile picture */}
+                {blog.source === 'medium' && (
                   <img
-                    src={`https://medium.com/_/api/users/${article.user.username}/profilePicture`}
-                    alt="profile"
+                    src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Medium_%28website%29_logo.svg" // Medium logo URL
+                    alt="Medium Logo"
                     className="w-full h-full object-cover rounded-full"
                   />
                 )}
