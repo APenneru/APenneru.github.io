@@ -160,11 +160,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href=""
+  footer: `<a 
+      class="text-primary" href="https://www.linkedin.com/in/aaryapenneru/"
       target=""
       rel=""
-    >AP`,
+    >Aarya Penneru`,
 };
 
 export default config;
