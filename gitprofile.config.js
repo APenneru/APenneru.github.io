@@ -59,10 +59,16 @@ const config = {
     {
       company: 'Manulife Financial',
       position: 'Software Engineer & PM',
-      from: 'January 2023',
+      from: 'May 2023',
       to: 'January 2024',
       companyLink: 'https://www.manulife.ca/personal.html',
     },
+    {
+      company: 'Manulife Financial',
+      position: 'Software Engineering Intern',
+      from: 'January 2023',
+      to: 'May 2023',
+      companyLink: 'https://www.manulife.ca/personal.html',
   ],
   /* certifications: [
     {
@@ -100,7 +106,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'Dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
