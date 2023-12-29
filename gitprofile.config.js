@@ -54,14 +54,14 @@ const config = {
       position: 'Product Management Intern (Digital)',
       from: 'September 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.linamar.com/',
     },
     {
       company: 'Manulife Financial',
       position: 'Software Engineer & PM',
       from: 'January 2023',
       to: 'January 2024',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.manulife.ca/personal.html',
     },
   ],
   /* certifications: [
@@ -76,6 +76,9 @@ const config = {
     {
       institution: 'University of Waterloo',
       degree: 'Systems Design Engineering',
+      from: '',
+      to: '',
+      
     },
   ],
 
