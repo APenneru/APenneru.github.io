@@ -35,8 +35,8 @@ const config = {
   skills: [
     'Python',
     'TypeScript',
-    'Rust'
-    'C++'
+    'Rust',
+    'C++',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -75,12 +75,6 @@ const config = {
     {
       institution: 'University of Waterloo',
       degree: 'Systems Design Engineering',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
     },
   ],
 
