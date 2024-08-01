@@ -50,11 +50,11 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Linamar',
-      position: 'Product Management Intern (Digital)',
-      from: 'September 2023',
-      to: 'Present',
-      companyLink: 'https://www.linamar.com/',
+      company: 'Munich Re',
+      position: 'Software Engineering Intern',
+      from: 'May 2024',
+      to: 'September 2024',
+      companyLink: 'https://www.munichre.com/ca-life/en.html',
     },
     {
       company: 'Manulife Financial',
@@ -62,6 +62,13 @@ const config = {
       from: 'May 2023',
       to: 'January 2024',
       companyLink: 'https://www.manulife.ca/personal.html',
+    },
+    {
+      company: 'Linamar',
+      position: 'Product Management Intern (Digital)',
+      from: 'September 2023',
+      to: 'Janurary 2024',
+      companyLink: 'https://www.linamar.com/',
     },
     {
       company: 'Manulife Financial',
