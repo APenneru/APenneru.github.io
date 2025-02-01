@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1KMh5V_WqLoVOiUo9ResCp_Ke63EceHIy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1DmYhY_WID6yFk8pBJFB-ZFd6EO7Hnqyo/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -49,6 +49,13 @@ const config = {
     'Ansible',
   ],
   experiences: [
+    {
+      company: 'Tesla',
+      position: 'Software Engineering Intern',
+      from: 'Jan 2025',
+      to: 'May 2025',
+      companyLink: 'https://www.tesla.com/energy',
+    },
     {
       company: 'Munich Re',
       position: 'Software Engineering Intern',
